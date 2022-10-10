@@ -1,0 +1,41 @@
+.text{
+    color: rgb(0, 208, 255);
+}
+ body{
+    background-color: rgb(0, 255, 170);
+    
+    }
+    #button {
+        background-color: rgb(47, 255, 113);
+    } 
+   
+    .btn-1{
+        color: rgb(93, 0, 255);
+        background-color: brown;
+    }
+
+    .btn-2{
+        color: blueviolet;
+        background: black;
+        border-radius: 50%;
+    }
+    h1{
+        color: brown;
+   }
+
+   #button{
+    padding: 20px;
+    border-radius: 20%;
+   }
+   .yoknahee {
+    padding: 20px;
+    border-radius: 20%;
+
+}
+.yhee {
+    color: aqua;
+    background-color: burlywood;
+    border-radius: 20px 20px;
+    padding: 50px;
+    margin: 20px;
+}s
