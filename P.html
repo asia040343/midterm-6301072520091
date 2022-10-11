@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-6301072520091</title>
+    <link rel="stylesheet" href="P.css">
+    
+</head>
+<body> 
+    
+    <ul>
+        <li><p id="namesensor-0"></p></li>
+        <li><p id="type-0"></p></li>
+        <li><p id="unit-0"></p></li>
+        <li><p id="value-0"></p></li>
+        <li><p id="range-0"></p></li>
+
+    </ul><br>
+
+    <ul>
+        <li><p id="namesensor-1"></p></li>
+        <li><p id="type-1"></p></li>
+        <li><p id="unit-1"></p></li>
+        <li><p id="value-1"></p></li>
+        <li><p id="range-1"></p></li>
+
+    </ul><br>
+
+    <ul>
+        <li><p id="namesensor-2"></p></li>
+        <li><p id="type-2"></p></li>
+        <li><p id="unit-2"></p></li>
+        <li><p id="value-2"></p></li>
+        <li><p id="range-2"></p></li>
+
+    </ul>
+    <button onclick="window.open('Home.html')">BACK</button>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+        fetch('https://midterm-exam-010723313-2022.herokuapp.com/device?sensor_type=pressure-transducer')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            const name0 = data[0].name;
+                const type0= data[0].type;
+                const unit0= data[0].unit;
+                const value0= data[0].value;
+                const range0 = data[0].range;
+                document.getElementById('namesensor-0').innerHTML = `name sensor : ${name0}.`;
+                document.getElementById('type-0').innerHTML = `type : ${type0}.`;
+                document.getElementById('unit-0').innerHTML = `unit : ${unit0}.`;
+                document.getElementById('value-0').innerHTML = `value : ${value0}.`;
+                document.getElementById('range-0').innerHTML = `range : ${range0}.`;
+                
+                const name1 = data[1].name;
+                const type1= data[1].type;
+                const unit1= data[1].unit;
+                const value1= data[1].value;
+                const range1 = data[1].range;
+                document.getElementById('namesensor-1').innerHTML = `name sensor : ${name1}.`;
+                document.getElementById('type-1').innerHTML = `type : ${type1}.`;
+                document.getElementById('unit-1').innerHTML = `unit : ${unit1}.`;
+                document.getElementById('value-1').innerHTML = `value : ${value1}.`;
+                document.getElementById('range-1').innerHTML = `range : ${range1}.`;
+
+                const name2 = data[2].name;
+                const type2= data[2].type;
+                const unit2= data[2].unit;
+                const value2= data[2].value;
+                const range2 = data[2].range;
+                document.getElementById('namesensor-2').innerHTML = `name sensor : ${name2}.`;
+                document.getElementById('type-2').innerHTML = `type : ${type2}.`;
+                document.getElementById('unit-2').innerHTML = `unit : ${unit2}.`;
+                document.getElementById('value-2').innerHTML = `value : ${value2}.`;
+                document.getElementById('range-2').innerHTML = `range : ${range2}.`;
+
+                
+    
+    
+    
+    
+        });
+    });
+    
+        </script>
+    
+    
+      
+      
+    </body>
+    
+    </html>
+    
