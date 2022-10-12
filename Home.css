@@ -1,40 +1,89 @@
 .Flow{
-    color: rgb(255, 0, 0);
-    background-color: burlywood;
-    border-radius: 40px 40px;
-    padding: 20px 30px;
-    margin: 70px;
-
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+
+.Flow {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+    
+
+  
 
 body{
     background-color: lightblue;
     
     }
 
+
     .Temp{
-        color: rgb(255, 0, 0);
-        background-color: burlywood;
-        border-radius: 40px 40px;
-        padding: 20px 30px;
-        margin: 70px;
-    
-    }
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.Temp {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 
     .Level{
-        color: rgb(255, 0, 0);
-        background-color: burlywood;
-        border-radius: 40px 40px;
-        padding: 20px 30px;
-        margin: 70px;
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.Level {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
     
-    }
+    
 
     .Pressure{
-        color: rgb(255, 0, 0);
-        background-color: burlywood;
-        border-radius: 40px 40px;
-        padding: 20px 30px;
-        margin: 70px;
-    
-    }
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 30px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.Pressure {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
