@@ -30,7 +30,7 @@ body{
 }
 
 .sd{
-   font-size: 40px;
+   font-size: 55px;
    font-family: 'Kanit', sans-serif;
    font-family: 'Mali', cursive
 }
@@ -38,4 +38,10 @@ body{
     font-size: 40px;
     font-family: 'Kanit', sans-serif;
     font-family: 'Mali', cursive
+}
+
+.q{
+    margin-left: 5px; 
+
+
 }

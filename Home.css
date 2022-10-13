@@ -1,24 +1,21 @@
-.Flow{
-  background-color: #4CAF50; /* Green */
-border: none;
-color: white;
-padding: 40px 100px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 20px 30px;
-cursor: pointer;
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
-font-family: 'Kanit', sans-serif;
-font-family: 'Mali', cursive;
-}
-
 .Flow {
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    border-radius: 80px 80px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+  }
+  
+  .Flow:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+  }
   
 
 body{
@@ -32,85 +29,84 @@ body{
 
 
     .Temp{
-        background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 40px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 30px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Mali', cursive;
-}
-
-.Temp {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+      background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    border-radius: 80px 80px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+  }
+  
+  .Temp:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+  }
+  
 
 
     .Level{
-        background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 40px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 30px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'Kanit', sans-serif;
-font-family: 'Mali', cursive;
-}
-
-.Level {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+      background-color: white; 
+      color: black; 
+      border: 2px solid #4CAF50;
+      font-size: 30px;
+      width: 250px;
+      height: 100px;
+      border-radius: 80px 80px;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Mali', cursive
+    }
+    
+    .Level:hover {
+      background-color: #4CAF50;
+      color: white;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Mali', cursive
+    }
     
     
 
     .Pressure{
-        background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 40px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 30px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'Kanit', sans-serif;
-  font-family: 'Mali', cursive;
-}
-
-.Pressure {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+      background-color: white; 
+      color: black; 
+      border: 2px solid #4CAF50;
+      font-size: 30px;
+      width: 250px;
+      height: 100px;
+      border-radius: 80px 80px;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Mali', cursive
+    }
+    
+    .Pressure:hover {
+      background-color: #4CAF50;
+      color: white;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Mali', cursive
+    }
+    
 
 .Send{
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 40px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 30px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
+  border-radius: 80px 80px;
   font-family: 'Kanit', sans-serif;
-  font-family: 'Mali', cursive;
-
+  font-family: 'Mali', cursive
 }
+
+.Send:hover {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mali', cursive
+}
+
+      

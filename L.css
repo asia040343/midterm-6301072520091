@@ -18,3 +18,17 @@ body{
         font-family: 'Kanit', sans-serif;
         font-family: 'Mali', cursive
     }
+
+    .u{
+        margin-left:85px 
+
+
+    }
+
+    .e{
+        margin-left:700px; 
+        position: absolute;
+        top: 15%;
+        
+    
+      }
