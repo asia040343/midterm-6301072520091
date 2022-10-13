@@ -1,0 +1,41 @@
+body{
+    
+    background-image: url('J.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+    
+    
+}
+
+.S{
+    color: rgb(1, 14, 14);
+    background-color: hwb(155 38% 17%);
+    border-radius: 80px 80px;
+    padding: 20px 50px;
+    margin: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+}
+.sub{
+    color: rgb(1, 14, 14);
+    background-color: hwb(155 38% 17%);
+    border-radius: 80px 80px;
+    padding: 20px 50px;
+    margin: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+
+}
+
+.sd{
+   font-size: 40px;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Mali', cursive
+}
+.A{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive
+}
