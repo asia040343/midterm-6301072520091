@@ -1,12 +1,21 @@
 body{
-    background-color: lightblue;
     
-    }
+        background-image: url('J.svg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Mali', cursive
+        
+        }
+    
+    
 
     .F{
-        color: aqua;
-        background-color: hwb(0 61% 29%);
+        color: rgb(1, 14, 14);
+        background-color: hwb(155 38% 17%);
         border-radius: 80px 80px;
         padding: 20px 50px;
         margin: 50px;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Mali', cursive
     }

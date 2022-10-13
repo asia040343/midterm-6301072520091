@@ -11,6 +11,8 @@
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mali', cursive;
 }
 
 .Flow {
@@ -23,7 +25,11 @@
   
 
 body{
-    background-color: lightblue;
+    background-image: url('G.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mali', cursive;
     
     }
 
@@ -41,6 +47,8 @@ body{
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mali', cursive;
 }
 
 .Temp {
@@ -61,6 +69,8 @@ body{
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Mali', cursive;
 }
 
 .Level {
@@ -82,6 +92,8 @@ body{
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mali', cursive;
 }
 
 .Pressure {
