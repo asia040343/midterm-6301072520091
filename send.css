@@ -10,24 +10,108 @@ body{
 }
 
 .S{
-    color: rgb(1, 14, 14);
-    background-color: hwb(155 38% 17%);
-    border-radius: 80px 80px;
-    padding: 20px 50px;
-    margin: 50px;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Mali', cursive
-}
+    align-self: center;
+      background-color: rgb(159, 229, 241);
+      background-image: none;
+      background-position: 0 90%;
+      background-repeat: repeat no-repeat;
+      background-size: 4px 3px;
+      border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+      border-style: solid;
+      border-width: 2px;
+      box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+      box-sizing: border-box;
+      color: #41403e;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Neucha, sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      outline: none;
+      padding: .75rem;
+      text-decoration: none;
+      transition: all 235ms ease-in-out;
+      border-bottom-left-radius: 15px 255px;
+      border-bottom-right-radius: 225px 15px;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      border-radius: 80px 80px;
+      padding: 20px 50px;
+      margin: 35px;
+      width: 200px;
+      height: 60px;
+      font-size: 35px;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Mali', cursive
+      
+   
+    }
+    
+    .S:hover {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+      transform: translate3d(0, 2px, 0);
+    }
+    
+    .S:focus {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+    }
+        
+    
 .sub{
-    color: rgb(1, 14, 14);
-    background-color: hwb(155 38% 17%);
+    align-self: center;
+    background-color: rgb(159, 229, 241);
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
     border-radius: 80px 80px;
     padding: 20px 50px;
-    margin: 50px;
+    margin: 35px;
+    width: 200px;
+    height: 60px;
+    font-size: 35px;
     font-family: 'Kanit', sans-serif;
     font-family: 'Mali', cursive
+    
+ 
+  }
+  
+  .sub:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .sub:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+      
+  
 
-}
 
 .sd{
    font-size: 55px;
@@ -35,6 +119,7 @@ body{
    font-family: 'Mali', cursive
 }
 .A{
+    border-radius: 80px 80px;
     font-size: 40px;
     font-family: 'Kanit', sans-serif;
     font-family: 'Mali', cursive
@@ -42,6 +127,7 @@ body{
 
 .q{
     margin-left: 5px; 
+    font-size: 20px;
 
 
 }
